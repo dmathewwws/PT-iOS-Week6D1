@@ -12,6 +12,11 @@
 		12358AE51FD636640075DB7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12358AE31FD636640075DB7B /* Main.storyboard */; };
 		12358AE71FD636640075DB7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12358AE61FD636640075DB7B /* Assets.xcassets */; };
 		12358AEA1FD636640075DB7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12358AE81FD636640075DB7B /* LaunchScreen.storyboard */; };
+		12358AF21FD639590075DB7B /* TapGestureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12358AF11FD639590075DB7B /* TapGestureViewController.swift */; };
+		12358AF41FD639660075DB7B /* RotationGestureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12358AF31FD639660075DB7B /* RotationGestureViewController.swift */; };
+		12358AF81FD639F60075DB7B /* PinchGestureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12358AF71FD639F60075DB7B /* PinchGestureViewController.swift */; };
+		12358AFA1FD63EC80075DB7B /* Animations.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12358AF91FD63EC80075DB7B /* Animations.storyboard */; };
+		12358AFC1FD63F020075DB7B /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12358AFB1FD63F020075DB7B /* SignupViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		12358AE61FD636640075DB7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12358AE91FD636640075DB7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12358AEB1FD636640075DB7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12358AF11FD639590075DB7B /* TapGestureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureViewController.swift; sourceTree = "<group>"; };
+		12358AF31FD639660075DB7B /* RotationGestureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestureViewController.swift; sourceTree = "<group>"; };
+		12358AF71FD639F60075DB7B /* PinchGestureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinchGestureViewController.swift; sourceTree = "<group>"; };
+		12358AF91FD63EC80075DB7B /* Animations.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Animations.storyboard; sourceTree = "<group>"; };
+		12358AFB1FD63F020075DB7B /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +67,11 @@
 				12358ADF1FD636640075DB7B /* AppDelegate.swift */,
 				12358AE11FD636640075DB7B /* ViewController.swift */,
 				12358AE31FD636640075DB7B /* Main.storyboard */,
+				12358AF11FD639590075DB7B /* TapGestureViewController.swift */,
+				12358AF31FD639660075DB7B /* RotationGestureViewController.swift */,
+				12358AF71FD639F60075DB7B /* PinchGestureViewController.swift */,
+				12358AF91FD63EC80075DB7B /* Animations.storyboard */,
+				12358AFB1FD63F020075DB7B /* SignupViewController.swift */,
 				12358AE61FD636640075DB7B /* Assets.xcassets */,
 				12358AE81FD636640075DB7B /* LaunchScreen.storyboard */,
 				12358AEB1FD636640075DB7B /* Info.plist */,
@@ -126,6 +141,7 @@
 				12358AEA1FD636640075DB7B /* LaunchScreen.storyboard in Resources */,
 				12358AE71FD636640075DB7B /* Assets.xcassets in Resources */,
 				12358AE51FD636640075DB7B /* Main.storyboard in Resources */,
+				12358AFA1FD63EC80075DB7B /* Animations.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12358AFC1FD63F020075DB7B /* SignupViewController.swift in Sources */,
+				12358AF41FD639660075DB7B /* RotationGestureViewController.swift in Sources */,
+				12358AF81FD639F60075DB7B /* PinchGestureViewController.swift in Sources */,
+				12358AF21FD639590075DB7B /* TapGestureViewController.swift in Sources */,
 				12358AE21FD636640075DB7B /* ViewController.swift in Sources */,
 				12358AE01FD636640075DB7B /* AppDelegate.swift in Sources */,
 			);
